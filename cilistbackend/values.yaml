@@ -13,10 +13,10 @@ image:
 config:
   DATABASE_USERNAME: "admin"
   DATABASE_DATABASE: "people"
-  DATABASE_HOST: "jakarta-db.c1h14jljsded.ap-southeast-3.rds.amazonaws.com"
+  DATABASE_HOST: "(link RDS)"
   DATABASE_PORT: "3306"
   BASE_URL_PORT: "5000"
-  DATABASE_PASSWORD: "favianhugo27"
+  DATABASE_PASSWORD: "admin123"
 
 imagePullSecrets: []
 nameOverride: ""
