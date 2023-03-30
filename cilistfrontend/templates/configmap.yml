@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "cilistfrontend.fullname" . }}-configmap
+  labels:
+    {{- include "cilistfrontend.labels" . | nindent 4 }}
+data:
+  {{ toYaml .Values.config | nindent 2 }} 
